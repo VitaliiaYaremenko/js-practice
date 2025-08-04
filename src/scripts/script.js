@@ -68,3 +68,13 @@ if (keysPerson1.length !== keysPerson2.length) {
 }
 
 console.log(isEqual);
+
+// Task - 5
+
+const animals = [{type: 'bee', name: 'Rokki'}];
+console.log(animals)
+
+const birds = {name: 'Viki', type: 'owl'};
+
+animals.push(birds);
+
